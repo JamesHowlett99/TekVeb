@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `python python/server.py`
+
+Used to start the Graphql API server.
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
