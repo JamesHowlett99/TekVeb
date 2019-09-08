@@ -1,0 +1,91 @@
+.console .body {
+    /*border: 1px solid blue;*/
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.console .body .alerter {
+    align-self: flex-start;
+}
+.console .body .content {
+    /*border: 1px solid red;*/
+    min-width: 1000px;
+    align-self: flex-start;
+    padding: 5px;
+}
+
+.console .body .content .editor {
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #263238;*/
+}
+
+.editor.day {
+    background: #f7f7f7;
+    color: black;
+}
+
+.editor.night {
+    background: #090300;
+    color: white;
+}
+
+.day button {
+    color: black;
+}
+
+.night button {
+    color: white;
+}
+
+.editor .code-block {
+    /*border: 1px solid red;*/
+    flex: 1;
+    padding: 5px;
+}
+
+.editor .options-block {
+    /*border: 1px solid red;*/
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: stretch;
+    /*align-self: flex-end;*/
+    border-top: 1px solid cadetblue;
+    padding: 5px;
+}
+
+.editor .options-block .item {
+    /*border: 1px solid red;*/
+    display: flex;
+    /*justify-content: center;*/
+    flex-grow: 0;
+}
+
+.editor .options-block .item button {
+    /*color: white;*/
+    background: none;
+    border: 1px solid cadetblue;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+.editor .options-block .item.left {
+    /*color: white;*/
+    /*padding-left: 10px;*/
+    flex: 1;
+}
+
+.editor .output-block {
+    /*border: 1px solid red;*/
+    /*color: white;*/
+    padding: 5px 5px 5px 10px;
+}
